@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Jekyll Blog Archive"
+---
+
+	<div class="row">
+		<div class="columns large-8">
+			<h3>Blog Archive</h3>
+
+			<div class="row">
+				<div class="columns large-12">
+				{% for post in site.posts %}
+					<h4><a href="{{post.url}}">{{post.title}}</a></h4>
+					<p>{{post.content | truncatewords:50}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="columns large-4">
+		<h4>About Pineapple</h4>
+		<p>It's delicious. It looks like a large pinecone, but it's not.</p>
+	</div>

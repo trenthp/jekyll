@@ -1,4 +1,5 @@
-name: Jekyll Website
+name: Jekyll Blog
 markdown: redcarpet
 pygments: true
 baseurl: /jekyll
+paginate: 3
