@@ -1,8 +1,4 @@
-
-markdown: rdiscount
-rdiscount:
-	extensions: [smart]
+name: Jekyll Site
+markdown: redcarpet
 pygments: true
-permalink: /articles/:title
-paginate: 3
-site_name: 'About Pineapples'
+baseurl: /jekyll
