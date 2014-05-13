@@ -15,34 +15,7 @@
 <body>
 	
 
-	{% include nav.html %}
 
-	<div class="row">
-		<div class="columns large-12">
-			<h1>Jekyll Site</h1>
-		</div>
-	</div>
-
-
-	
-	<article>
-		
-
-
-	</article>
-		
-	<aside>
-		<h3>My Posts</h3>
-		<ul>
-		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		    </li>
-		  {% endfor %}
-		</ul>	
-
-	</aside>		
-	
 
 	<!-- Nav Bar -->
  
@@ -102,10 +75,10 @@
  
     <aside class="large-3 columns">
  
-      <h5>Categories</h5>
+      <h5>Recent Posts</h5>
       <ul class="side-nav">
 		  {% for post in site.posts %}
-	        <li>		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 		  {% endfor %}
       </ul>
  
@@ -130,7 +103,7 @@
       <hr />
       <div class="row">
         <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
+          <p>Footer footer</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
